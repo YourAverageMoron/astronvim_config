@@ -8,4 +8,6 @@ return {
       end,
     })
   end,
+
+  tsserver = function(_, opts) require("typescript").setup { server = opts } end,
 }

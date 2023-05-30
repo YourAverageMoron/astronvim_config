@@ -3,6 +3,7 @@
 
 return {
   n = {
-    -- ["<leader>q"] = { "<cmd>q<cr>", desc = "Quit" },
+    ["<tab>"] = { "<cmd>:bnext<cr>", desc = "Next Buffer" },
+    ["<s-tab>"] = { "<cmd>:bprevious<cr>", desc = "Next Buffer" },
   },
 }
